@@ -1,8 +1,4 @@
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Public Sans', sans-serif;
   margin: 0;
@@ -123,7 +119,6 @@ td {
   position: absolute;
   top: -120px;
   right: -130px;
-  /* overflow: hidden; */
 }
 
 .middle-container {
@@ -154,9 +149,11 @@ td {
   margin: 45px auto;
 }
 
+.article {
+  margin-right: 30px;
+}
+
 .article-text {
-  padding-left: 10px;
-  padding-right: 30px;
   width: 300px;
 }
 
